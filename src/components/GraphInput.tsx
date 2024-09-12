@@ -465,6 +465,7 @@ export function GraphInput({
                 document.getElementById(
                   "graphInputNodeLabels",
                 ) as HTMLTextAreaElement
+              ).value = "";
               if (inputFormat === "edges") {
                 (
                   document.getElementById(
