@@ -1,5 +1,12 @@
 # Another Graph Editor
 
+
+<div align="center">
+
+English/ [简体中文](https://github.com/zjx-kimi/GraphEditorZH) 
+
+</div>
+
 A graph editor inspired by [CS Academy's graph editor](https://csacademy.com/app/graph_editor/),
 designed with competitive programming in mind.
 
