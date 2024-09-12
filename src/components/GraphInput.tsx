@@ -396,6 +396,7 @@ export function GraphInput({
           id="graphInputParent"
           rows={1}
           onChange={processGraphInput}
+          defaultValue={"4 3 4 2 1"}
           onKeyDown={handleTextAreaKeyDown}
           className={
             inputFormat === "parentChild"
@@ -418,7 +419,7 @@ export function GraphInput({
           name="graphInputChild"
           id="graphInputChild"
           rows={1}
-          defaultValue={"1 2 3 4 5 6 7 8 9"}
+          defaultValue={"1 2 3 4 5"}
           onChange={processGraphInput}
           onKeyDown={handleTextAreaKeyDown}
           className={
@@ -444,6 +445,7 @@ export function GraphInput({
           rows={1}
           onChange={processGraphInput}
           onKeyDown={handleTextAreaKeyDown}
+          defaultValue={"1 2 3 4 5"}
           className={
             inputFormat === "parentChild"
               ? `bg-ovr font-semibold font-jetbrains resize-none border-2
@@ -464,10 +466,30 @@ export function GraphInput({
                     "graphInputEdges",
                   ) as HTMLTextAreaElement
                 ).value = "";
+                (
+                  document.getElementById(
+                    "graphInputRootsEdges",
+                  ) as HTMLTextAreaElement
+                ).value = "";
               } else {
                 (
                   document.getElementById(
                     "graphInputParent",
+                  ) as HTMLTextAreaElement
+                ).value = "";
+                (
+                  document.getElementById(
+                    "graphInputEdgeLabels",
+                  ) as HTMLTextAreaElement
+                ).value = "";
+                (
+                  document.getElementById(
+                    "graphInputChild",
+                  ) as HTMLTextAreaElement
+                ).value = "";
+                (
+                  document.getElementById(
+                    "graphInputRootsParChild",
                   ) as HTMLTextAreaElement
                 ).value = "";
               }
