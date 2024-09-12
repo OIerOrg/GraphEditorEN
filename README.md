@@ -130,3 +130,4 @@ displayed instead, where *back edges* are displayed as dotted lines.
 - [Atcoder](https://atcoder.jp/)
 - [USACO Guide](https://usaco.guide/)
 - [-is-this-fft-'s Blog on the DFS Tree](https://codeforces.com/blog/entry/68138)
+- [English version of the original project](https://github.com/anAcc22/another_graph_editor/)
