@@ -65,7 +65,7 @@ function App() {
         <a
           className="font-jetbrains text-sm flex sm:top-2 lg:top-2 absolute border-2 border-border rounded-lg px-2 py-1
             justify-between items-center hover:border-border-hover z-10"
-          href="https://github.com/zjx-kimi/GraphEditorZH"
+          href="https://github.com/zjx-kimi/GraphEditorEN"
           style={{ right: '2%' }}  // 靠右
         >
           {settings.darkMode ? (
